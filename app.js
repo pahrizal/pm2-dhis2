@@ -5,13 +5,13 @@ var pgActions = require('./lib/actions.js');
 
 pmx.initModule({
 
-  pid: pmx.resolvePidPaths(['/var/run/postgresql/9.4-main.pid', '/var/run/postgresql/9.3-main.pid', '/var/run/postgresql/9.5-main.pid']),
+  // pid: pmx.resolvePidPaths(['/var/run/postgresql/9.4-main.pid', '/var/run/postgresql/9.3-main.pid', '/var/run/postgresql/9.5-main.pid']),
 
   // Options related to the display style on Keymetrics
   widget: {
 
     // Logo displayed
-    logo: 'http://www.inquidia.com/sites/default/files/postgresql_logo%5B1%5D.png',
+    logo: 'https://docs.dhis2.org/2.34/fr/developer/html/resources/images/dhis2-logo-rgb-positive.png',
 
     // Module colors
     // 0 = main element
@@ -33,7 +33,7 @@ pmx.initModule({
       meta: true,
 
       // Custom metrics to put in BIG
-      main_probes: ['Tables', 'Indexes','Total Tables Size','Backends Active','Exclusive Locks']
+      main_probes: ['Pemakaian CPU']
     }
 
   }

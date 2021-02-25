@@ -1,24 +1,19 @@
 {
-  "name": "pm2-postgres",
+  "name": "pm2-dhis2",
   "version": "0.1.0",
-  "description": "PM2 PostgreSQL Module",
+  "description": "PM2 DHIS2 Module",
   "main": "app.js",
   "dependencies": {
     "humanize": "0.0.9",
     "lodash": "^3.10.1",
-    "pg": "^4.4.2",
     "pmx": ">=0.5.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pm2-hive/pm2-postgres.git"
+    "url": "https://github.com/pahrizal/pm2-dhis2.git"
   },
   "config": {
-    "hostname": "localhost",
-    "port": 5432,
-    "username": "guest",
-    "password": "guest",
-    "database": "postgres"
+    "username": "silacak"
   },
   "apps": [
     {
@@ -27,7 +22,7 @@
       "script": "app.js"
     }
   ],
-  "author": "Keymetrics Inc.",
+  "author": "PT Castellum Digital Indonesia",
   "license": "MIT",
   "devDependencies": {}
 }
