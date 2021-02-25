@@ -1,7 +1,6 @@
 var pmx = require('pmx');
-var pgClientFactory = require('./lib/clientFactory.js');
-var pgStats = require('./lib/stats.js');
-var pgActions = require('./lib/actions.js');
+var stats = require('./lib/stats.js');
+var actions = require('./lib/actions.js');
 
 pmx.initModule({
 
@@ -39,11 +38,9 @@ pmx.initModule({
   }
 
 }, function (err, conf) {
-  var pgClient = pgClientFactory.build(conf);
-
   // Init metrics refresh loop
-  pgStats.init(pgClient);
+  stats.init();
 
   // Init actions
-  pgActions.init(pgClient);
+  actions.init();
 });
