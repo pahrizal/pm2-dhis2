@@ -32,7 +32,7 @@ pmx.initModule({
       meta: true,
 
       // Custom metrics to put in BIG
-      main_probes: ['Pemakaian CPU']
+      main_probes: ['Pemakaian CPU', 'Pemakaian Memory']
     }
 
   }
