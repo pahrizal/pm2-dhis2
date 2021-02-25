@@ -9,6 +9,8 @@ DHIS2 module for Keymetrics
 PM2 module untuk memonitor DHIS2 server metrics:
 
 -   Pemakaian CPU
+-   Pemakaian Memory
+-   Restart DHIS2
 
 ## Install
 
