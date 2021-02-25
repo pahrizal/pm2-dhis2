@@ -13,7 +13,7 @@
     "url": "https://github.com/pahrizal/pm2-dhis2.git"
   },
   "config": {
-    "username": "silacak"
+    "cpu_alert": 100
   },
   "apps": [
     {

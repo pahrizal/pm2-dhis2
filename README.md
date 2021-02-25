@@ -18,6 +18,12 @@ $ npm install pm2 -g
 $ pm2 install pahrizal/pm2-dhis2
 ```
 
+## Uninstall
+
+```bash
+$ pm2 uninstall pm2-dhis2
+```
+
 # License
 
 MIT

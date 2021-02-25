@@ -39,8 +39,8 @@ pmx.initModule({
 
 }, function (err, conf) {
   // Init metrics refresh loop
-  stats.init();
+  stats.init(conf);
 
   // Init actions
-  actions.init();
+  actions.init(conf);
 });
