@@ -13,7 +13,8 @@
     "url": "https://github.com/pahrizal/pm2-dhis2.git"
   },
   "config": {
-    "cpu_alert": 100
+    "cpu_alert": 100,
+    "mem_alert": 90
   },
   "apps": [
     {
